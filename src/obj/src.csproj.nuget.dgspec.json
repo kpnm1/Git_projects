@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projectsC#\\projects\\src\\src.csproj": {}
+    "D:\\projectsC#\\Git_projects\\src\\src.csproj": {}
   },
   "projects": {
-    "D:\\projectsC#\\projects\\src\\src.csproj": {
+    "D:\\projectsC#\\Git_projects\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projectsC#\\projects\\src\\src.csproj",
+        "projectUniqueName": "D:\\projectsC#\\Git_projects\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "D:\\projectsC#\\projects\\src\\src.csproj",
+        "projectPath": "D:\\projectsC#\\Git_projects\\src\\src.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\projectsC#\\projects\\src\\obj\\",
+        "outputPath": "D:\\projectsC#\\Git_projects\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
