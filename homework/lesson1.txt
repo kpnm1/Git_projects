@@ -1,0 +1,454 @@
+namespace homework
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //task1
+            //Console.Write("4 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10 * 10;
+            //var tens = number / 10 % 10;
+            //var result = number / 100 * 100 + ones + tens;
+            //Console.WriteLine(result);
+            //Main(args);
+
+            //task2
+            //Console.Write("3 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var hundreds = number / 100 * 10;
+            //var tens = number / 10 % 10 * 100;
+            //var ones = number % 10;
+            //var result = tens + ones + hundreds;
+            //Console.WriteLine(result);
+
+            //task3
+            //Console.Write("4 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var thousands = number / 1000 % 10 * 10;
+            //var hundreds = number / 100 % 10 * 100;
+            //var tens = number / 10 % 10 * 1000;
+            //var ones = number % 10;
+            //var result = thousands + hundreds + tens + ones;
+            //Console.WriteLine(result);
+            //Main(args);
+
+            //task4
+            //Console.Write("necha gbni maydalash kerak: ");
+            //var gb = Convert.ToInt32 (Console.ReadLine());
+            //Console.WriteLine(gb + " gb " + gb * 1024 + " mb bo'ladi");
+
+            //task5
+            //Console.Write("necha gbni maydalash kerak: ");
+            //long gb = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(gb + " gb " + gb * 1024 * 1024 * 1024 * 8 + " bit bo'ladi");
+
+            //task6
+            //Console.Write("necha gbni yirik qilamiz: ");
+            //var gb = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(gb + " gb " + gb / 1024 + " tb bo'ladi");
+
+            //task7
+            //Console.Write("fleshka necha gblik: ");
+            //var gb = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("fleshkaga " + gb / 2 + " ta video sig'adi");
+
+            //task8
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var square = number * number;
+            //var cube = square * number;
+            //var sixthDegree = cube * cube;
+            //Console.WriteLine(sixthDegree);
+            //Main(args);
+
+            //task9
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var square = number * number;
+            //var fourthDegree = square * square;
+            //var eighthDegree = fourthDegree * fourthDegree;
+            //Console.WriteLine(eighthDegree);
+            //Main(args);
+
+            //task10
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 2 == 0);
+            //Main(args);
+
+            //task11
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 2 != 0);
+            //Main(args);
+
+            //task12
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //while (number > 0)
+            //{
+            //    number /= 10;
+            //    counter++;
+            //}
+            //Console.WriteLine(counter == 2);
+            //Main(args);
+
+            //task13
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //while (number > 0)
+            //{
+            //    number /= 10;
+            //    counter++;
+            //}
+            //Console.WriteLine(counter == 4);
+            //Main(args);
+
+            //task14
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //var test = false;
+            //if (number % 2 == 0) test = true;  
+            //while (number > 0)
+            //{
+            //    number /= 10;
+            //    counter++;
+            //}
+            //Console.WriteLine(counter == 2 && test);
+            //Main(args);
+
+            //task15
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //var test = false;
+            //if (number % 2 != 0) test = true;
+            //while (number > 0)
+            //{
+            //    number /= 10;
+            //    counter++;
+            //}
+            //Console.WriteLine(counter == 3 && test);
+            //Main(args);
+
+            //task16
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //var test = false;
+            //if (number % 2 == 0) test = true;
+            //while (number > 0)
+            //{
+            //    number /= 10;
+            //    counter++;
+            //}
+            //Console.WriteLine(counter == 4 && test);
+            //Main(args);
+
+            //task17
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNmuber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNmuber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(firstNmuber % 2 != 0 && secondNmuber % 2 != 0);
+            //Main(args);
+
+            //task18
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNmuber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNmuber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(firstNmuber % 2 == 0 && secondNmuber % 2 == 0);
+            //Main(args);
+
+            //task19
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNmuber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNmuber = Convert.ToInt32(Console.ReadLine());
+            //var firstCounter = 0;
+            //var secondCounter = 0;
+            //var test = false;
+            //if (firstNmuber % 2 != 0 && secondNmuber % 2 != 0) test = true; 
+            //while (firstNmuber > 0)
+            //{
+            //    firstNmuber /= 10;
+            //    firstCounter++;
+            //}
+            //while (secondNmuber > 0)
+            //{
+            //    secondNmuber /= 10;
+            //    secondCounter++;
+            //}
+            //Console.WriteLine(firstCounter == 2 && secondCounter == 2 && test);
+            //Main(args);
+
+            //task20
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var tens = number / 10;
+            //Console.WriteLine(ones == tens);
+            //Main(args);
+
+            //task21
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var tens = number / 10;
+            //Console.WriteLine(ones + tens > 10);
+            //Main(args);
+
+            //task22
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var tens = number / 10;
+            //Console.WriteLine(ones * tens > 20);
+            //Main(args);
+
+            //task23
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var tens = number / 10;
+            //Console.WriteLine(ones % 2 != 0 && tens % 2 != 0);
+            //Main(args);
+
+            //task24
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var ones = number % 10;
+            //var tens = number / 10;
+            //Console.WriteLine(ones > 5 && tens > 5);
+            //Main(args);
+
+            //task25
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 3 == 0);
+            //Main(args);
+
+            //task26
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 7 == 0);
+            //Main(args);
+
+            //task27
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 3 == 0 && number % 8 == 0);
+            //Main(args);
+
+            //task28
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 7 == 0 || number % 9 == 0);
+            //Main(args);
+
+            //task29
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 5 != 0);
+            //Main(args);
+
+            //task30
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(number % 3 != 0 && number % 4 == 0);
+            //Main(args);
+
+            //task31
+            //Console.Write("1-son kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-son kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(firstNumber > secondNumber);
+            //Main(args);
+
+            //task32
+            //Console.Write("1-son kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-son kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(firstNumber == secondNumber);
+            //Main(args);
+
+            //task33
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("c sonini kiriting: ");
+            //var thirdNumber = Convert.ToInt32(Console.ReadLine());
+            //var result = int.MinValue;
+            //if (firstNumber > secondNumber)
+            //{
+            //    result = firstNumber;
+            //}
+            //Console.WriteLine(result > thirdNumber);
+            //Main(args);
+
+            //task34
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("c sonini kiriting: ");
+            //var thirdNumber = Convert.ToInt32(Console.ReadLine());
+            //var result = int.MinValue;
+            //if (thirdNumber > secondNumber)
+            //{
+            //    result = thirdNumber;
+            //}
+            //Console.WriteLine(result > firstNumber);
+            //Main(args);
+
+            //task35
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("c sonini kiriting: ");
+            //var thirdNumber = Convert.ToInt32(Console.ReadLine());
+            //var result = int.MaxValue;
+            //if (firstNumber > secondNumber)
+            //{
+            //    result = secondNumber;
+            //}
+            //Console.WriteLine(result < thirdNumber);
+            //Main(args);
+
+            //task36
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(firstNumber / secondNumber == 2);
+            //Main(args);
+
+            //task37
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(secondNumber / firstNumber == 5);
+            //Main(args);
+
+            //task38
+            //Console.Write("a sonini kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("b sonini kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(secondNumber / firstNumber == 4 || firstNumber / secondNumber == 4);
+            //Main(args);
+
+            //task39
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //if (firstNumber > secondNumber) Console.WriteLine(firstNumber);
+            //else Console.WriteLine(secondNumber);
+
+            //task40
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //if (firstNumber < secondNumber) Console.WriteLine(firstNumber);
+            //else Console.WriteLine(secondNumber);
+
+            //task41
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //var firstCounter = 0;
+            //var secondCounter = 0;
+            //var firstTempNumber = firstNumber;
+            //var secondTempNumber = secondNumber;
+            //while (firstTempNumber > 0)
+            //{
+            //    firstTempNumber /= 10;
+            //    firstCounter++;
+            //}
+            //while (secondTempNumber > 0)
+            //{
+            //    secondTempNumber /= 10;
+            //    secondCounter++;
+            //}
+            //if (firstCounter == 2 && secondCounter == 2)
+            //{
+            //    Console.WriteLine(firstNumber + secondNumber);
+            //}
+            //else Console.WriteLine(firstNumber * secondNumber);
+            //Main(args);
+
+            //task42
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //var firstCounter = 0;
+            //var secondCounter = 0;
+            //if (firstNumber % 2 == 0 && secondNumber % 2 == 0)
+            //{
+            //    Console.WriteLine(firstNumber + secondNumber);
+            //}
+            //else Console.WriteLine(firstNumber * secondNumber);
+            //Main(args);
+
+            //task43
+            //Console.Write("1-sonni kiriting: ");
+            //var firstNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2-sonni kiriting: ");
+            //var secondNumber = Convert.ToInt32(Console.ReadLine());
+            //var firstCounter = 0;
+            //var secondCounter = 0;
+            //if (firstNumber % 2 != 0 && secondNumber % 2 != 0)
+            //{
+            //    Console.WriteLine(firstNumber * secondNumber);
+            //}
+            //else Console.WriteLine(firstNumber + " , " + secondNumber);
+            //Main(args);
+
+            //task44
+            //var counter = 0;
+            //for (int i = 1; i < 4; i++)
+            //{
+            //    Console.Write(i + "-sonni kiriting: ");
+            //    var number = Convert.ToInt32(Console.ReadLine());
+            //    if (number % 2 != 0) counter++;
+            //}
+            //Console.WriteLine(counter);
+
+            //task45
+            //Console.Write("son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var counter = 0;
+            //while (number > 0)
+            //{
+            //    if (number % 2 == 0) counter++;
+            //    number /= 10;
+            //}
+            //Console.WriteLine(counter);
+            //Main(args);
+
+            //task46
+            //var counter = 0;
+            //for (int i = 1; i < 6; i++)
+            //{
+            //    Console.Write(i + "-sonni kiriting:");
+            //    var number = Convert.ToInt32(Console.ReadLine());
+            //    if (number % 2 == 0) counter++;
+            //}
+            //Console.WriteLine(counter + " ta juft son bor");
+        }
+    }
+}
