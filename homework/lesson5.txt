@@ -1,4 +1,4 @@
-﻿namespace src
+namespace src
 {
     internal class Program
     {
@@ -231,18 +231,6 @@
         //    var firstTwoElements = elements[0] % 2 == 0 && elements[1] % 2 == 0;
         //    var lastTwoElements = elements[length - 1] % 2 != 0 && elements[length - 2] % 2 != 0;
         //    Console.WriteLine(firstTwoElements is true && lastTwoElements is true);
-        //}
-
-        //task14
-        //public static void Main(string[] args)
-        //{
-        //    Console.Write("enter list length: ");
-        //    var length = int.Parse(Console.ReadLine());
-
-        //    var elements = new List<int>();
-        //    FillList(elements, length);
-        //    elements.Sort();
-        //    Console.WriteLine(elements[0]);
         //}
 
 
