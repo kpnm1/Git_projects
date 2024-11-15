@@ -233,6 +233,122 @@ namespace src
         //    Console.WriteLine(firstTwoElements is true && lastTwoElements is true);
         //}
 
+        //task14
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    elements.Sort();
+        //    Console.WriteLine(elements[0]);
+        //}
+
+        //task15
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    elements.Sort();
+        //    Console.WriteLine($"yig'indi: {elements[0] + elements[length-1]}");
+        //}
+
+        //task16
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    for (int i = 0; i < length; i++)
+        //    {
+        //        if (elements[i] >= 10 && elements[i] <= 99)
+        //        {
+        //            elements[i] += 100;
+        //        }
+        //    }
+        //    Print(elements);
+        //}
+
+        //task17
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    var countNegativeElements = 0;
+        //    var countPositiveElements = 0;
+        //    foreach (var element in elements)
+        //    {
+        //        if (element < 0) countNegativeElements++;
+        //        else countPositiveElements++;
+        //    }
+        //    Console.WriteLine($"musbat: {countPositiveElements}\nmanfiy: {countNegativeElements}");
+        //}
+
+        //task18
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    var firstElement = elements[0];
+        //    elements.Sort();
+        //    var indexOfFirstElement = elements.IndexOf(firstElement);
+        //    Console.WriteLine($"kichiklari: {indexOfFirstElement}");
+        //}
+
+        //task19
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    var lastElement = elements.Last();
+        //    elements.Sort();
+        //    Print(elements);
+        //    var indexOfLastElement = elements.IndexOf(lastElement);
+        //    var sum = 0;
+        //    for (int i = indexOfLastElement + 1; i < length; i++)
+        //    {
+        //        if (elements[i] != lastElement)
+        //        {
+        //            sum += elements[i];
+        //        }
+        //    }
+        //    Console.WriteLine(sum);
+        //}
+
+        //task20
+        //public static void Main(string[] args)
+        //{
+        //    Console.Write("enter list length: ");
+        //    var length = int.Parse(Console.ReadLine());
+
+        //    var elements = new List<int>();
+        //    FillList(elements, length);
+        //    var test = true;
+        //    foreach (var element in elements)
+        //    {
+        //        if (element % 4 != 0 || element % 3 != 0)
+        //        {
+        //            test = false; break;
+        //        }
+        //    }
+        //    Console.WriteLine(test);
+        //}
+
 
         public static void FillList(List<int> digits, int length)
         {
