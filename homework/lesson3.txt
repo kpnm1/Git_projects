@@ -1,0 +1,874 @@
+namespace src
+{
+    internal class Program
+    {
+        //task1
+        //public static string HelloName(string name)
+        //{
+        //    var responce = $"Hello {name}!";
+        //    return responce;
+        //}
+
+        //task2
+        //public static string MakeAbba(string firstText, string secondText)
+        //{
+        //    var responce = firstText + secondText + secondText + firstText;
+        //    return responce;
+        //}
+
+        //task3
+        //public static string MakeOutWord (string firstText, string secondText)
+        //{
+        //    if (firstText.Length > 4) return "iltimos xavfsizligingiz uchun qoidani buzmang";
+        //    var responce = firstText.Insert(2, secondText);
+        //    return responce;
+        //}
+
+        //task4
+        //public static string ExtraEnd (string text)
+        //{
+        //    if (text.Length < 2) return "qoidalar, qoidalar";
+        //    var responce = text.Substring(text.Length - 2);
+        //    return responce + responce + responce;
+        //}
+
+        //task5
+        //public static string FirstTwo(string text)
+        //{
+        //    if (text.Length < 2) return text;
+        //    return text.Substring(0, 2);
+        //}
+
+        //task6
+        //public static string FirstHalf (string text)
+        //{
+        //    if (text.Length % 2 != 0) return "keyingi safar ogohlantirish bo'lmaydi";
+        //    return text.Substring (0, text.Length / 2);
+        //}
+
+        //task7
+        //public static string WithoutEnd(string text)
+        //{
+        //    if (text.Length < 2) return "bo'ldi yetib kelding";
+        //    var removedText = text.Remove(0, 1);
+        //    return removedText.Remove(text.Length - 2);
+        //}
+
+        //task8
+        //public static string ComboString(string aSatr, string bSatr)
+        //{
+        //    if (aSatr.Length > bSatr.Length)
+        //    {
+        //        return bSatr + aSatr + bSatr;
+        //    }
+        //    else
+        //    {
+        //        return aSatr + bSatr + aSatr;
+        //    }
+        //}
+
+        //task9
+        //public static string NonStart(string firstText, string secondText)
+        //{
+        //    if (firstText.Length == 0 || secondText.Length == 0)
+        //    {
+        //        return "chopilding";
+        //    }
+        //    var responce = firstText.Substring(1);
+        //    responce += secondText.Substring(1);
+        //    return responce;
+        //}
+
+        //task10
+        //public static string LeftTwo(string text)
+        //{
+        //    var responce = text.Substring(2);
+        //    responce += text.Substring(0, 2);
+        //    return responce;
+        //}
+
+        //task11
+        //public static string TheEnd(string text, bool front)
+        //{
+        //    if (front is true) return text.Substring(0, 1);
+        //    else return text.Substring(text.Length - 1);
+        //}
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    Console.Write("enter true or false: ");
+        //    var front = Convert.ToBoolean(Console.ReadLine());
+        //    var result = TheEnd(text, front);
+        //    Console.WriteLine($"result: {result}");
+        //}
+
+        //task12
+        //public static string NTwice(string text, int number)
+        //{
+        //    var responce = text.Substring(0, number);
+        //    responce += text.Substring(text.Length - number);
+        //    return responce;
+        //}
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    Console.Write("enter a number: ");
+        //    var number = int.Parse(Console.ReadLine());
+        //    var result = NTwice(text, number);
+        //    Console.WriteLine($"result: {result}");
+        //}
+
+        //task13
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    var result = MiddleThree(firstText);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string MiddleThree(string text)
+        //{
+        //    if (text.Length % 2 == 0) return "endi foydasi yo'q";
+        //    var responce = text.Substring(text.Length / 2 - 1, 3);
+        //    return responce;
+        //}
+
+        //task14
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    Console.Write("enter second text: ");
+        //    var secondText = Console.ReadLine();
+        //    var result = ConCat(firstText, secondText);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string ConCat(string firstText, string secondText)
+        //{
+        //    if (firstText[firstText.Length - 1] == secondText[0])
+        //    {
+        //        return firstText + secondText.Substring(1);
+        //    }
+        //    return firstText + secondText;
+        //}
+
+        //task15
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = LastTwo(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string LastTwo(string text)
+        //{
+        //    var responce = text.Substring(0, text.Length - 2);
+        //    responce += text.Substring(text.Length - 1, 1) + text.Substring(text.Length - 2, 1);
+        //    return responce;
+        //}
+
+        //task16
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = SeeColor(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string SeeColor(string text)
+        //{
+        //    if (text.StartsWith("red")) return "red";
+        //    else if (text.StartsWith("blue")) return "blue";
+        //    else return "";
+        //}
+
+        //task17
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = FrontAgain(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static bool FrontAgain(string text)
+        //{
+        //    var responce = text.Substring(0, 2);
+        //    if (responce == text.Substring(text.Length - 2))
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+
+        //task18
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    Console.Write("enter second text: ");
+        //    var secondText = Console.ReadLine();
+        //    var result = MinCat(firstText, secondText);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string MinCat(string firstText, string secondText)
+        //{
+        //    var responce = "";
+        //    if (firstText.Length > secondText.Length)
+        //    {
+        //        responce = firstText.Substring(firstText.Length - secondText.Length);
+        //        return responce + secondText;
+        //    }
+        //    else
+        //    {
+        //        responce = secondText.Substring(secondText.Length - firstText.Length);
+        //        return responce + firstText;
+        //    }
+
+        //task19
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = DeFront(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string DeFront(string text)
+        //{
+        //    var responce = "";
+        //    if (text[0] == 'a')
+        //    {
+        //        if (text[1] == 'b') return text;
+        //        else return text.Remove(1, 1);
+        //    }
+        //    else
+        //    {           /// hello
+        //        responce = text.Remove(0, 1);   /// ello
+        //        if (text[1] != 'b') responce = responce.Remove(0, 1);
+        //        return responce;
+        //    }
+        //}
+
+        //task20
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = WithoutX(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string WithoutX(string text)
+        //{
+        //    var responce = "";
+        //    if (text[0] != 'x') ///xdfghx
+        //    {
+        //        if (text[text.Length - 1] != 'x')
+        //        {
+        //            return text;
+        //        }
+        //        else
+        //        {
+        //            responce = text.Remove(text.Length - 1);
+        //            return responce;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        responce = text.Remove(0, 1);
+        //        if (text[text.Length - 1] != 'x')
+        //        {
+        //            return responce;
+        //        }
+        //        else
+        //        {
+        //            return responce.Remove(responce.Length - 1);
+        //        }
+        //    }
+        //}
+
+        //task21
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = CatDog(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static bool CatDog(string text)
+        //{
+        //    var counter = 0;
+        //    for (int i = 0; i < text.Length - 2; i++)
+        //    {
+        //        if (text.Substring(i, 3) == "cat")
+        //        {
+        //            counter++;
+        //        }
+        //        if (text.Substring(i, 3) == "dog")
+        //        {
+        //            counter--;
+        //        }
+        //    }
+        //    if (counter == 0) return true;
+        //    return false;
+        //}
+
+        //task22
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = CountCode(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static int CountCode(string text)
+        //{
+        //    var count = 0;
+        //    for (int i = 0; i < text.Length - 3; i++)
+        //    {
+        //        if (text.Substring(i, 2) == "co" && text[i + 3] == 'e')
+        //        {
+        //            count++;
+        //        }
+        //    }
+        //    return count;
+        //}
+
+        //task23
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    Console.Write("enter second text: ");
+        //    var secondText = Console.ReadLine();
+        //    var result = EndOther(firstText, secondText);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static bool EndOther (string firstText, string secondText)
+        //{
+        //    var firstLowercaseText = firstText.ToLower();
+        //    var secondLowercaseText = secondText.ToLower();
+        //    if (firstText.Length > secondText.Length)
+        //    {
+        //        return firstLowercaseText.EndsWith(secondLowercaseText);
+        //    }
+        //    return secondLowercaseText.EndsWith(firstLowercaseText);
+        //}
+
+        //task24
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    var result = XyzThere(text);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static bool XyzThere(string text)
+        //{
+        //    for (int i = 0; i < text.Length - 2; i++)
+        //    {
+        //        if (text.Substring(i, 3) == "xyz")
+        //        {
+        //            if (i == 0 || text[i - 1] != '.')
+        //            {
+        //                return true;
+        //            }
+        //        }
+        //    }
+        //    return false;
+        //}
+
+        //task25
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    Console.Write("enter second text: ");
+        //    var secondText = Console.ReadLine();
+        //    var result = MixString(firstText, secondText);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string MixString(string firstText, string secondText)
+        //{
+        //    var stringLength = 0;
+        //    var responce = "";
+        //    var tempString = "";
+        //    if (firstText.Length > secondText.Length)
+        //    {
+        //        stringLength = secondText.Length;
+        //        tempString = firstText.Remove(0, stringLength);
+        //    }
+        //    else
+        //    {
+        //        stringLength = firstText.Length;
+        //        tempString = secondText.Remove(0, stringLength);
+        //    }
+        //    for (int i = 0; i < stringLength; i++)
+        //    {
+        //        responce += firstText[i];
+        //        responce += secondText[i];
+        //    }
+        //    return responce + tempString;
+        //}
+
+        //task26
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("enter text: ");
+        //    var text = Console.ReadLine();
+        //    Console.Write("enter a number: ");
+        //    var number = int.Parse(Console.ReadLine());
+        //    var result = RepeatEnd(text, number);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string RepeatEnd(string text, int number)
+        //{
+        //    var responce = "";
+        //    for (int i = 0; i < number; i++)
+        //    {
+        //        responce += text.Substring(text.Length - number);
+        //    }
+        //    return responce;
+        //}
+
+        //task27
+        //public static String RepeatFront(string text, int n)
+        //{
+        //    var responce = "";
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        responce += text.Substring(0, n - i);
+        //    }
+        //    return responce;
+        //}
+        //public static void Main()
+        //{
+        //    Console.Write("enter a text: ");
+        //    var text = Console.ReadLine();
+        //    Console.Write("enter a number:");
+        //    var n = int.Parse(Console.ReadLine());
+        //    var result = RepeatFront(text, n);
+        //    Console.WriteLine($"result: {result}");
+        //}
+
+        //task28
+        //public static void Main()
+        //{
+        //    Console.Write("enter first text: ");
+        //    var firstText = Console.ReadLine();
+        //    Console.Write("enter second text: ");
+        //    var secondText = Console.ReadLine();
+        //    Console.Write("enter a number:");
+        //    var number = int.Parse(Console.ReadLine());
+        //    var result = RepeatSeparator(firstText, secondText, number);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static string RepeatSeparator(string word, string sep, int number)
+        //{
+        //    var responce = "";
+        //    for (int i = 0; i < number; i++)
+        //    {
+        //        responce += word;
+        //        if (i < number - 1) responce += sep;
+        //    }
+        //    return responce;
+        //}
+
+        //task29
+        //public static void Main()
+        //{
+        //    Console.Write("enter a text: ");
+        //    var text = Console.ReadLine();
+        //    Console.Write("enter a number:");
+        //    var n = int.Parse(Console.ReadLine());
+        //    var result = PrefixAgain(text, n);
+        //    Console.WriteLine($"result: {result}");
+        //}
+        //public static bool PrefixAgain(string text, int number)
+        //{
+        //    var substeredText = text.Substring(0, number);
+        //    var responce = text.IndexOf(substeredText, number);
+
+        //    return (responce > 0);
+        //}
+
+        //task30
+        //public static void Main()
+        //{
+        //    Console.WriteLine(XyzMiddle("xyz"));
+        //    Console.WriteLine(XyzMiddle("AAxyzBB"));
+        //    Console.WriteLine(XyzMiddle("AxyzBB"));
+        //    Console.WriteLine(XyzMiddle("AxyzBBB"));
+        //    Console.WriteLine(XyzMiddle("xyzAxyzBBB"));
+        //}
+        //public static bool XyzMiddle(string text)
+        //{
+        //    for (int i = 0; i < text.Length - 2; i++)
+        //    {
+        //        var substredText = text.Substring(i, 3);
+        //        if (substredText == "xyz")
+        //        {
+        //            var firstText = text.Substring(0, i);
+        //            var secondText = text.Substring(i + 3);
+        //            var diff = firstText.Length - secondText.Length;
+        //            if (diff >= -1 && diff <= 1) return true;
+        //        }
+        //    }
+
+        //    return false;
+        //}
+
+        //task31
+        //public static void Main()
+        //{
+        //    Console.WriteLine(GetSandwich("breadjambread"));
+        //    Console.WriteLine(GetSandwich("xxbreadjambreadyy"));
+        //    Console.WriteLine(GetSandwich("xxbreadyy"));
+        //    Console.WriteLine(GetSandwich("xxbreadyybread"));
+        //}
+        //public static string GetSandwich (string text)
+        //{
+        //    var firstBreadIndex = text.IndexOf ("bread");
+        //    var secondBreadIndex = text.LastIndexOf("bread");
+        //    if (firstBreadIndex != secondBreadIndex)
+        //    {
+        //        var result = text.Substring(firstBreadIndex + 5, secondBreadIndex - 5 - firstBreadIndex);
+        //        return result;
+        //    }
+        //    return string.Empty;
+        //}
+
+        //task32
+        //public static void Main()
+        //{
+        //    Console.WriteLine(SameStarChar("xy*yzz"));
+        //    Console.WriteLine(SameStarChar("xy*zzz"));
+        //    Console.WriteLine(SameStarChar("*xa*az"));
+        //}
+        //public static bool SameStarChar (string text)
+        //{
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        var result = string.Empty;
+        //        if (text.Substring(i, 1) == "*")
+        //        {
+        //            if (i != 0)
+        //            {
+        //                if (text[i - 1] == text[i + 1])
+        //                {
+        //                    return true;
+        //                }
+        //            }
+        //        }
+        //    }
+        //    return false;
+        //}
+
+        // task33
+        //public static void Main(string[] args)
+        //{
+        //    Console.WriteLine(ZipZap("zipXzap"));///zpXzp
+        //    Console.WriteLine(ZipZap("zopzop"));///zpzp
+        //    Console.WriteLine(ZipZap("zzzopzopzabcd"));//zzzpzp
+        //}
+        //public static string ZipZap(string text)
+        //{
+        //    var result = string.Empty;
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        if (i < text.Length - 2 && text[i] == 'z' && text[i + 2] == 'p')
+        //        {
+        //            result += "zp";
+        //            i += 2;
+        //        }
+        //        else
+        //        {
+        //            result += text[i];
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //task34
+        //public static void Main()
+        //{                          /// 012345 
+        //    Console.WriteLine(PlusOut("12xy34", "xy"));//++xy++
+        //    Console.WriteLine(PlusOut("12xy34", "1"));//1+++++
+        //    Console.WriteLine(PlusOut("12xy34xyabcxy", "xy"));//++xy++xy+++xy
+        //}                           ///0123456789
+        //public static string PlusOut(string str, string word)
+        //{
+        //    var result = string.Empty;
+        //    for (int i = 0; i < str.Length; i++)
+        //    {
+        //        if (i <= str.Length - word.Length && str.Substring(i, word.Length) == word)
+        //        {
+        //            result += word;
+        //            i += word.Length - 1;
+        //        }
+        //        else
+        //        {
+        //            result += '+';
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //task35
+        //public static void Main()
+        //{
+        //    Console.WriteLine(WordEnds("abcXY123XYijk", "XY"));//c13i
+        //    Console.WriteLine(WordEnds("XY123XY", "XY"));///13
+        //    Console.WriteLine(WordEnds("XY1XY", "XY"));///11
+        //}
+        //public static string WordEnds(string str, string word)
+        //{
+        //    var result = string.Empty;
+        //    for (int i = 0; i <= str.Length - word.Length; i++)
+        //    {
+        //        if (str.Substring(i, word.Length) == word)
+        //        {
+        //            if (i != 0)
+        //            {
+        //                result += str[i - 1];
+        //            }
+        //            if (i != str.Length - word.Length)
+        //            {
+        //                result += str[i + word.Length];
+        //            }
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //task36
+        //public static void Main()
+        //{
+        //    Console.WriteLine(CountYZ("fez day"));
+        //    Console.WriteLine(CountYZ("day fez"));
+        //    Console.WriteLine(CountYZ("day:yak"));
+        //    Console.WriteLine(CountYZ("!!day--yaz!!"));
+        //}
+        //public static int CountYZ(string text)
+        //{
+        //    var additionalChar = ' ';
+        //    text += additionalChar;
+        //    var counter = 0;
+        //    for (var i = 0; i < text.Length - 1; i++)
+        //    {
+        //        if (text[i] == 'z' || text[i] == 'Z' || text[i] == 'y' || text[i] == 'Y')
+        //        {
+        //            if (char.IsLetter(text[i + 1]) is false)
+        //            {
+        //                counter++;
+        //            }
+        //        }
+        //    }
+        //    return counter;
+        //}
+
+        //task37
+        //public static void Main()
+        //{
+        //    Console.WriteLine(WithoutString("Hello There", "llo"));//He there
+        //    Console.WriteLine(WithoutString("Hello There", "e"));//Hllo thr
+        //    Console.WriteLine(WithoutString("Hello There", "x"));//Hello there
+        //    Console.WriteLine(WithoutString("abyyyab", "yy"));//abyab
+        //}
+        //public static string WithoutString(string firstText, string secondText)
+        //{
+        //    var result = string.Empty;
+        //    for (int i = 0; i < firstText.Length; i++)
+        //    {
+        //        if (i <= firstText.Length - secondText.Length && firstText.Substring(i, secondText.Length) == secondText)
+        //        {
+        //            i += secondText.Length - 1;
+        //        }
+        //        else
+        //        {
+        //            result += firstText[i];
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //task38
+        //public static void Main()
+        //{
+        //    Console.WriteLine(EqualIsNot("This is not"));
+        //    Console.WriteLine(EqualIsNot("This is notnot"));
+        //    Console.WriteLine(EqualIsNot("noisxxnotyynotxisi"));
+        //}
+        //public static bool EqualIsNot(string text)
+        //{
+        //    var counterForIS = 0;
+        //    var counterForNOT = 0;
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        if (i <= text.Length - 2 && text.Substring(i, 2) == "is")
+        //        {
+        //            counterForIS++;
+        //        }
+        //        if (i <= text.Length - 3 && text.Substring(i, 3) == "not")
+        //        {
+        //            counterForNOT++;
+        //        }
+        //    }
+        //    return counterForIS == counterForNOT;
+        //}
+
+        //task39
+        //public static void Main()
+        //{
+        //    Console.WriteLine(GHappy("xxggxx"));//true
+        //    Console.WriteLine(GHappy("xxgxx"));//false
+        //    Console.WriteLine(GHappy("xxggyygxx"));//false
+        //    Console.WriteLine(GHappy("xxgggxyg"));//false
+        //}                           //01234567
+        //public static bool GHappy(string text)
+        //{
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        if (text[i] == 'g')
+        //        {
+        //            if ((i == 0 || text[i - 1] != 'g') && (i == text.Length - 1 || text[i + 1] != 'g'))
+        //            {
+        //                return false;
+        //            }
+        //        }
+        //    }
+        //    return true;
+        //}
+
+        //task40
+        //public static void Main()
+        //{
+        //    Console.WriteLine(CountTriple("abcXXXabc"));
+        //    Console.WriteLine(CountTriple("xxxabyyyycd"));
+        //    Console.WriteLine(CountTriple("a"));
+        //}
+        //public static int CountTriple(string text)
+        //{
+        //    var count = 0;
+        //    for (int i = 0; i < text.Length - 2; i++)
+        //    {
+        //        if (text[i + 1] == text[i] && text[i + 2] == text[i + 1])
+        //        {
+        //            count++;
+        //        }
+        //    }
+        //    return count;
+        //}
+
+        //task41
+        //public static void Main()
+        //{
+        //    Console.WriteLine(SumDigit("aa1bc2d3"));
+        //    Console.WriteLine(SumDigit("aa11b33"));
+        //    Console.WriteLine(SumDigit("Chocolate"));
+        //}
+        //public static int SumDigit(string text)
+        //{
+        //    var result = 0;
+        //    foreach (char digit in text)
+        //    {
+        //        if (char.IsDigit(digit) is true)
+        //        {
+        //            result += digit - '0';
+        //        }
+        //    }
+        //    return result;
+        //}
+
+        //task42
+        //public static void Main()
+        //{
+        //    Console.WriteLine(SameEnds("abXYab"));
+        //    Console.WriteLine(SameEnds("yy"));
+        //    Console.WriteLine(SameEnds("zzz"));
+        //    Console.WriteLine(SameEnds("Hello!andHello!"));
+        //    Console.WriteLine(SameEnds("xavaXYZjava"));
+        //    Console.WriteLine(SameEnds("ababa"));
+        //}
+        //public static string SameEnds (string text)
+        //{
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        var substredText = text.Substring(0, i);
+        //        var lastSubstredText = text.Substring(text.Length-i);
+        //        if (substredText == lastSubstredText && substredText != string.Empty)
+        //        {
+        //            return substredText;
+        //        }
+        //    }
+        //    return string.Empty;
+        //}
+
+        ////////task43
+        ////////public static void Main()
+        ////////{
+        ////////    Console.WriteLine(MaxBlock("hoopla"));
+        ////////    Console.WriteLine(MaxBlock("abbCCCddBBBxx"));
+        ////////    Console.WriteLine(MaxBlock(""));
+        ////////    Console.WriteLine(MaxBlock("xyz"));
+        ////////}
+        ////////public static int MaxBlock(string text)
+        ////////{
+        ////////    var maxBlock = string.Empty;
+        ////////    var newMaxBlock = string.Empty;
+        ////////    for (int i = 0; i < text.Length; i++)
+        ////////    {
+        ////////        if (i < text.Length - 1 && text[i] == text[i + 1])
+        ////////        {
+        ////////            maxBlock += text[i];
+        ////////            if (i < text.Length - 2 && text[i + 1] != text[i + 2])
+        ////////            {
+        ////////                maxBlock += text[i + 1];
+        ////////            }
+        ////////        }
+        ////////        else
+        ////////        {
+
+        ////////            maxBlock += text[i];
+        ////////        }
+        ////////    }
+        ////////    var maxBlockLength = maxBlock.Length;
+        ////////    return maxBlockLength;
+        ////////}
+
+        //task44
+        //public static void Main()
+        //{                               //012345678
+        //    Console.WriteLine(SumNumbers("abc123xyz"));
+        //    Console.WriteLine(SumNumbers("aa11b33"));
+        //    Console.WriteLine(SumNumbers("7 11"));
+        //}
+        //public static int SumNumbers(string text)
+        //{
+        //    var sum = 0;
+        //    var digitsForSum = string.Empty;
+        //    for (int i = 0; i < text.Length; i++)
+        //    {
+        //        if (char.IsDigit(text[i]) is true)
+        //        {
+        //            digitsForSum += text[i];
+        //        }
+        //        else
+        //        {
+        //            if (digitsForSum != string.Empty)
+        //            {
+        //                sum += int.Parse(digitsForSum);
+        //                digitsForSum = string.Empty;
+        //            }
+        //        }
+        //        if (i == text.Length - 1 && digitsForSum != string.Empty && char.IsDigit(digitsForSum[0]) is true)
+        //        {
+        //            sum += int.Parse(digitsForSum);
+        //        }
+        //    }
+        //    return sum;
+        //}
+
+
+    }
+}

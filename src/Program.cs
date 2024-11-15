@@ -837,64 +837,38 @@
         ////////}
 
         //task44
-        public static void Main()
-        {                               //012345678
-           // Console.WriteLine(SumNumbers("abc123xyz"));
-            Console.WriteLine(SumNumbers("aa11b33"));
-            Console.WriteLine(SumNumbers("7 11"));
-        }
-        public static int SumNumbers(string text)
-        {
-            var sum = 0;
-            var digitsForSum = string.Empty;
-            for (int i = 0; i < text.Length; i++)
-            {
-                if (char.IsDigit(text[i]) is true)
-                {
-                    digitsForSum += text[i];
-                }
-                else
-                {
-                    if (digitsForSum != string.Empty)
-                    {
-                        sum += int.Parse(digitsForSum);
-                    }
-                    digitsForSum = string.Empty;
-                }
-            }
-            return sum;
-        }
-
-
-
-
-
-
-
-
-
-
         //public static void Main()
+        //{                               //012345678
+        //    Console.WriteLine(SumNumbers("abc123xyz"));
+        //    Console.WriteLine(SumNumbers("aa11b33"));
+        //    Console.WriteLine(SumNumbers("7 11"));
+        //}
+        //public static int SumNumbers(string text)
         //{
-        //    Console.Write("enter text: ");
-        //    var text = Console.ReadLine();
-        //    var result = string.Empty;
-        //    foreach (var letter in text)
+        //    var sum = 0;
+        //    var digitsForSum = string.Empty;
+        //    for (int i = 0; i < text.Length; i++)
         //    {
-        //        if (char.IsUpper(letter) is true)
+        //        if (char.IsDigit(text[i]) is true)
         //        {
-        //            result += char.ToLower(letter);
-        //        }
-        //        else if (char.IsLower(letter) is true)
-        //        {
-        //            result += char.ToUpper(letter);
+        //            digitsForSum += text[i];
         //        }
         //        else
         //        {
-        //            result += letter;
+        //            if (digitsForSum != string.Empty)
+        //            {
+        //                sum += int.Parse(digitsForSum);
+        //                digitsForSum = string.Empty;
+        //            }
+        //        }
+        //        if (i == text.Length - 1 && digitsForSum != string.Empty && char.IsDigit(digitsForSum[0]) is true)
+        //        {
+        //            sum += int.Parse(digitsForSum);
         //        }
         //    }
-        //    Console.WriteLine(result);  
+        //    return sum;
         //}
+
+
     }
 }
