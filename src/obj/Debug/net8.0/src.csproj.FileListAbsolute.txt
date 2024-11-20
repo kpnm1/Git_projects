@@ -13,3 +13,11 @@ D:\projectsC#\Git_projects\src\obj\Debug\net8.0\refint\src.dll
 D:\projectsC#\Git_projects\src\obj\Debug\net8.0\src.pdb
 D:\projectsC#\Git_projects\src\obj\Debug\net8.0\src.genruntimeconfig.cache
 D:\projectsC#\Git_projects\src\obj\Debug\net8.0\ref\src.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.Asio.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.Core.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.Midi.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.Wasapi.dll
+D:\projectsC#\Git_projects\src\bin\Debug\net8.0\NAudio.WinMM.dll
+D:\projectsC#\Git_projects\src\obj\Debug\net8.0\src.csproj.AssemblyReference.cache
+D:\projectsC#\Git_projects\src\obj\Debug\net8.0\src.csproj.Up2Date
